@@ -1,0 +1,57 @@
+
+installar Sass 
+npm -i node-sass 
+
+@import "./scss/index.scss"
+
+react-bootstrap.github.io 
+npm install react-bootstrap bootstrap
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/react-fontawesome
+
+OR 
+
+npm i --save @fortawesome/fontawesome-svg-core  @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+<FontAwesomeIcon icon="coffee" />
+
+
+***********************************
+Para alertas y notificaciones
+
+npm i react-toastify
+
+
+**********************************
+Validaciones
+
+Lodash.com 
+
+npm i lodash 
+
+
+**********************************
+jwt-decode
+npm i jwt-decode
+
+
+*********************************
+Para manejo de Rutas 
+
+https://reacttraining.com/react-router/web/guides/quick-start
+react-router-dom 
+
+npm i react-router-dom
+
+
+

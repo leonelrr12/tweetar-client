@@ -1,0 +1,20 @@
+@import "../../../scss/index.scss";
+
+.info-user {
+    margin: 20px;
+
+    * {
+        margin: 0;
+    }
+
+    svg {
+        width: 15px;
+        height: 15px;
+        fill: $font-gray;
+    }
+
+    .name {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
