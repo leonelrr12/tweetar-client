@@ -1,0 +1,15 @@
+@import "../../scss/index.scss";
+
+.list-tweets {
+    .tweet {
+        display: flex;
+        padding: 10px 20px;
+        border-bottom: 1px solid $border-gray;
+
+        .avatar {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+    }
+}

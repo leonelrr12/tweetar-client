@@ -1,4 +1,6 @@
 import React from "react";
+import moment from "moment";
+import localization from "moment/locale/es";
 import { Location, Link, DateBirth } from "../../../utils/icons";
 
 import "./InfoUser.scss";
@@ -12,7 +14,8 @@ export default function InfoUser(props) {
             <h2 className="name">{user?.Nombre} {user?.Apellidos}</h2>
             <p className="email">{user?.Email}</p>
             {user?.Biografia && <div className="descripcion">{user.Biografia}</div>}
-            <div className="">
+
+            <div className="more-info">
                 {user?.Ubicacion && (
                     <p>
                         <Location />
@@ -31,7 +34,7 @@ export default function InfoUser(props) {
                 {user?.FecNac && (
                     <p>
                         <DateBirth />
-                        {user.FecNac}
+                        {moment(user.FecNac).locale("es",localization).format("LL")}
                     </p>
                 )}
             </div>

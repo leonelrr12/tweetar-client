@@ -17,4 +17,32 @@
         font-size: 18px;
         font-weight: bold;
     }
+    .email {
+        font-size: 14px;
+        color: $font-gray;
+    }
+    .descripcion {
+        margin: 10px 0;
+        // Permite que no salgan todas las lineas en una sola
+        white-space: pre-line;
+    }
+
+    .more-info {
+        display: flex;
+        align-items: center;
+
+        p,
+        a {
+            color: $font-gray;
+            padding-right: 20px;
+        
+            svg {
+                margin-right: 10px;
+            }
+        }
+
+        a {
+            color: $primary;
+        }
+    }
 }

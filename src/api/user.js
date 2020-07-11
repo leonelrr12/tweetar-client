@@ -23,3 +23,75 @@ export function getUserApi(id) {
         return err;
     });
 }
+
+export function uploadBannerApi(file) {
+    const url = `${API_HOST}/subirbanner`;
+
+    const formData = new FormData();
+    formData.append("banner", file);
+
+    const params = {
+        method: "POST",
+        headers: {
+            Authorization: `Bearer ${getTokenApi()}`
+        },
+        body: formData
+    };
+
+    return fetch(url, params)
+    .then(response => {
+        return response.json();
+    })
+    .then(result => {
+        return result;
+    })
+    .catch(err => {
+        return err;
+    });
+}
+
+export function uploadAvatarApi(file) {
+    const url = `${API_HOST}/subiravatar`;
+
+    const formData = new FormData();
+    formData.append("avatar", file);
+
+    const params = {
+        method: "POST",
+        headers: {
+            Authorization: `Bearer ${getTokenApi()}`
+        },
+        body: formData
+    };
+
+    return fetch(url, params)
+    .then(response => {
+        return response.json();
+    })
+    .then(result => {
+        return result;
+    })
+    .catch(err => {
+        return err;
+    });
+}
+
+export function updateInfoApi(data) {
+    const url = `${API_HOST}/modifyerfil`;
+
+    const params = {
+        method: "PUT",
+        headers: {
+            Authorization: `Bearer ${getTokenApi()}`
+        },
+        body: JSON.stringify(data)
+    };
+
+    return fetch(url, params)
+        .then(response => {
+            return response;
+        })
+        .catch(err => {
+            return err;
+        });
+}

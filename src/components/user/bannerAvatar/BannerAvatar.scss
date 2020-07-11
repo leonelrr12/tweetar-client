@@ -32,12 +32,26 @@
             border-radius: 50px;
             background-color: $primary;
             width: 150px;
-        }
+        
+            &:hover {
+                background-color: $primary;
+                opacity: 0.6;
+            }
 
-        &:hover {
-            border-radius: 50px;
-            background-color: $primary;
-            opacity: 0.6;
+            &.unfollow {
+                &:hover {
+                    border-color: $danger;
+                    background-color: $danger;
+
+                    &::before {
+                        content: "Dejar de seguir";
+                    }
+
+                    span {
+                        display: none;
+                    }
+                }
+            }
         }
     }
 }

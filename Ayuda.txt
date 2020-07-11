@@ -54,4 +54,89 @@ react-router-dom
 npm i react-router-dom
 
 
+*****************************
+Manejo de fecha con DatePicker
+
+reactdatepicker.com
+npm i recat-datepicker
+
+Para soportar el idioma
+npm date-fns 
+
+
+******************************
+Para subir ficheros a nuestra pagina web
+
+react-dropzone
+
+
+*************************************
+classnames
+https://www.npmjs.com/package/classnames
+
+
+npm install classnames --save
+
+ <span className={classNames("count", {error: message.length > maxLeng })}>
+
+Esto no me funciono
+Lo tuve que hacer a mano con JavaScript
+
+
+*****************************************
+query-string 
+es para hace un Split y lo contrario con 
+queryString.stringifly o parse 
+
+import { withRouter } from "react-router-dom";
+esto sirve para que react nos muestre los valores de navegacion 
+tales como:
+const { location, history } = props;
+
+
+******************************
+package use-debounce 
+Para hacer que el buscador se dispare luego que terminamos de escribir el terminamos
+
+npm i use-debounce --save 
+
+
+////////////////////////////////////////////
+Como convertir una imagen a ICO 
+http://convertio.co/es/png-ico 
+Previo crear una imagen 64 x 64 o un poco mas grande 
+
+
+///////////////////////////////////////////
+Hacer al Upload 
+
+GO :
+go build main.go
+
+git status
+git add .
+git commit -m "Terminado"
+git status 
+git push -u origin master
+git push heroku master
+
+
+Rect:
+
+///////////////////////////////////////////
+
+
+
+
+
+
+
+
+link afiliado de iToo.dev 
+
+https://itoo.dev?affcode=600175_xq1jvda2
+https://bit.ly/miescuelita
+
+
+59xGeOfSI0C9
 
