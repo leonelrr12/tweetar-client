@@ -125,6 +125,16 @@ Rect:
 
 ///////////////////////////////////////////
 
+Para que el proyecto pueda correr en Netlify 
+tenemos que crear un archivo dentro la carpeta 
+
+Public 
+    _redirects 
+        /* /index.html 200 
+
+
+Con esto se corrige el error que pagina no encontrada o en blando
+///////////////////////////////////////////
 
 
 
