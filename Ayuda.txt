@@ -123,6 +123,29 @@ git push heroku master
 
 Rect:
 
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
+  },
+
+
+Para subir a github 
+
+instalar:
+
+npm i --dev gh-pages 
+
+esto en el package.json 
+"homepage": "https://leonelrr12.github.io/tweetar-client",
+
+
+npm run build 
+npm run deploy 
+
 ///////////////////////////////////////////
 
 Para que el proyecto pueda correr en Netlify 
