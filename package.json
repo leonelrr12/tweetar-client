@@ -16,7 +16,7 @@
     "jwt-decode": "^2.2.0",
     "lodash": "^4.17.15",
     "moment": "^2.27.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "query-string": "^6.13.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
@@ -24,7 +24,7 @@
     "react-dom": "^16.13.1",
     "react-dropzone": "^11.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "5.0.1",
     "react-toastify": "^6.0.6",
     "use-debounce": "^3.4.3"
   },
